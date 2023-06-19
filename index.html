@@ -4,74 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Static Template</title>
+    <title>Meet the Team</title>
+    <style>
+      body {
+        background-color:#fffafa;
+      }
+      .main-heading{
+        color:indigo;
+      }
+      .main-subtitle {
+        color:gray;
+      }
+    
+      .team-member p{
+        opacity:.8;
+      }
+      
+      #Anna {
+        color:beige;
+        background-color:darkcyan;
+        width:256px;
+      }
+      #Anna h2 {
+        color:#F0FFF0;
+      }
+      #Anna h3 {
+        color:#F0FFF0;
+      }
+      #Harry {
+        background-color:cornsilk;
+        width:256px;
+      }
+      #Harry h2 {
+        color:#2F4F4F;
+      }
+      #Harry h3 {
+        color:#2F4F4F;
+      }
+      #Sofia {
+        background-color:dodgerblue;
+        width:256px;
+        color:lightcyan;
+      }
+      #Sofia h2 {
+        color:navy;
+      }
+      #Sofia h3 {
+        color:navy;
+      }
+      
+    </style>
   </head>
   <body>
-    <h1>Currently Reading</h1>
-    <h2>Index</h2>
-    <ul>
-      <li>
-        <a
-          href="https://www.amazon.in/Hundred-Years-Solitude-International-Writers/dp/0140157514"
-        >
-          One Hundred Years of Solitude
-        </a>
-      </li>
-      <li>
-        <a href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834">
-          Atomic Habits
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.amazon.in/Sapiens-Humankind-Yuval-Noah-Harari/dp/0099590085"
-        >
-          Sapiens: A Brief History of Humankind
-        </a>
-      </li>
-    </ul>
-    <ol>
-      <li>
-        <h3>One Hundred Years of Solitude</h3>
-        <p>
-          By Gabriel Garcia Marquez Summary - The theme of this book is about
-          two families that witness various stages of life over the period of a
-          century. How the protagonist try to come to grips with their past and
-          how this obsessiveness brings about the doom of the family is captured
-          in the novel.
-        </p>
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/I/91hJ+hgZm4L.jpg"
-          height="100"
-        />
-      </li>
-      <li>
-        <h3>Atomic Habits</h3>
-        <p>
-          By James Clear World-renowned habits expert James Clear has discovered
-          a simpler system for transforming your life. He knows that lasting
-          change comes from the compound effect of hundreds of small decisions -
-          doing two push-ups a day, waking up five minutes early, or holding a
-          single short phone call. He calls them atomic habits.
-        </p>
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg"
-          height="100"
-        />
-      </li>
-      <li>
-        <h3>Sapiens: A Brief History of Humankind</h3>
-        <p>
-          By Yuval Noah Harari Summary - Earth is 4.5 billion years old. In just
-          a fraction of that time, one species among countless others has
-          conquered it: us. In this bold and provocative book, Yuval Noah Harari
-          explores who we are, how we got here and where we're going.
-        </p>
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/I/713jIoMO3UL.jpg"
-          height="100"
-        />
-      </li>
-    </ol>
+    <header>
+      <h1 class="main-heading">Meet the team</h1>
+      <p class="main-subtitle">Meet the people who make this software awesome</p>
+    </header>
+    <section class="team-member" id="Anna">
+      <img src="https://avatars.dicebear.com/api/avataaars/annakendrick.svg" 
+      height="100" width="100" alt="Anna Kendrick">
+      <h2>Anna Kendrick</h2>
+      <h3>Front-end Ninja</h3>
+      <p>Bibliophile, loves to dive into fictional worlds, ships JS code like brownies</p>
+    </section>
+     <section class="team-member" id="Harry">
+       <img src="https://avatars.dicebear.com/api/avataaars/harryfn.svg" 
+       height="100" width="100" alt="Harry Fawn">
+       <h2>Harry Fawn</h2>
+        <h3>Illustrator</h3>
+        <p>Creates new illustrations each week, will kill for coffee, and loves beaches.</p>
+    </section>
+     <section class="team-member" id="Sofia">
+       <img src="https://avatars.dicebear.com/api/avataaars/sofiasul.svg" 
+       height="100" width="100" alt=" Sofia Sultan">
+       <h2>Sofia Sultan</h2>
+      <h3>Backend Engineer</h3>
+      <p>Donuts over waffles. Martinis over whiskeys. Typescript over anything.</p>
+    </section>
   </body>
 </html>

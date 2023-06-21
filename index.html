@@ -5,73 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meet the Team</title>
   <style>
-    .menu {
-      margin: 1rem;
-      padding: 4px;
+    
+    .container-nav {
+      display:flex;
+      justify-content:space-between;
+      background-color:black;
+      color:white;
+      align-items:center;
     }
-    .dot {
-      height:1rem;
-      width: 1rem;
-      background-color:#424242;
-      border-radius: 50%;
-      margin-bottom: 4px;
-    }
-    .square {
-      height:1rem;
-      width: 1rem;
-      background-color:#424242;
-      margin-bottom: 4px;
-    }
-    .rect {
-      width: 2.5rem;
-      height: .5rem;
-      background-color:#424242;
-      margin-bottom: 4px;
-    }
-    .rect:hover {
-      background-color: rgba(68, 240, 76, 0.4) ;
-      cursor: pointer;
-    }
-    .square:hover {
-      background-color: rgba(68, 240, 76, 0.4) ;
-      cursor: pointer;
-    }
-    .dot:hover {
-      background-color: rgba(68, 240, 76, 0.4) ;
-      cursor: pointer;
-    }
-    .dot:nth-child(3n) {
-      margin-bottom:0%;
-    }
-    .square:nth-child(3n) {
-      margin-bottom:0%;
-    }
-    .rect:nth-child(3n) {
-      margin-bottom:0%;
-    }
-    .menu:last-child :hover{
-      background-color: rgba(68, 240, 76, 0.4) ;
-      cursor: pointer;
+    .container-ul {
+      display:flex;
+      list-style-type:none;
+      justify-content:space-around;
+   
+      min-width:10rem;
     }
 
   </style>
 </head>
 <body>
-  <div class="menu">
-    <div class="dot"><br /></div>
-    <div class="dot"><br /></div>
-    <div class="dot"><br /></div>
-  </div>
-  <div class="menu">
-    <div class="square"><br /></div>
-    <div class="square"><br /></div>
-    <div class="square"><br /></div>
-  </div>
-  <div class="menu">
-    <div class="rect"><br /></div>
-    <div class="rect"><br /></div>
-    <div class="rect"><br /></div>
-  </div>
+ 
+ <header>
+   <nav class="container-nav">
+     <h1>Posts</h1>
+     <ul class="container-ul"> 
+       <li>Feed</li>
+       <li>Week</li>
+       <li>Month</li>
+       </ul>
+     </nav>
+   </header>
 
   </body>
   </html>
